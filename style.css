@@ -15,7 +15,7 @@
     font-weight: 600;
     background: #E55473;
     padding: 20px 40px;
-    
+    cursor: pointer;
 }
 
 header {
@@ -66,13 +66,20 @@ header {
     font-weight: 400;
     line-height: 25px;
 }
+.flower a {
+    color: #272727;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
 .feature-img {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 240px 130px;
     gap: 30px;
-    
 }
 .feature-flower-img {
     display: flex;
@@ -93,7 +100,6 @@ header {
     height: 430px;
     margin: 100px 75px 30px;
 }
-
 
 .flower-bouquet {
     width: 464px;
