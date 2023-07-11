@@ -23,6 +23,57 @@ header {
     width: 100vw;
     height: 850px;
 }
+
+.service-section {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    margin: 130px 240px 0px;
+    gap: 50px;
+    font-family: ;
+}
+.free-delivery {
+    color: #272727;
+    height: 150px;
+    width: 100%;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.care {
+    color: #272727;
+    height: 150px;
+    width: 100%;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.exclusive-design {
+    color: #272727;
+    height: 150px;
+    width: 100%;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.service-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.service-brief {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .section-container {
     display: flex;
     justify-content: space-between;
@@ -118,7 +169,7 @@ header {
     width: 464px;
     height: 530px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background: rgba(71, 125, 17, 0.15);
     text-align: center;
 
 }
