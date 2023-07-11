@@ -98,7 +98,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
-.hot-deal {
+.deal {
     color: #ed5476;
 }
 .hot-deal-brief {
@@ -131,7 +131,6 @@ header {
     color: rgba(39, 39, 39, 0.924);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-bottom: 50px;
@@ -142,4 +141,56 @@ header {
     align-items: center;
     gap: 25px;
     margin: 0 240px;
+}
+
+/*
+.latest-deal-section {
+    background-image: url('./asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: middle;
+    width: 1440px;
+    height: 450px;
+
+}
+.latest-deal-container {
+    text-align: center;
+    margin-top: 130px;
+    padding: 0 660px;
+}
+.latest-deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+*/
+
+
+footer {
+    background: #181818;
+    text-align: center;
+}
+.footer-section {
+    padding: 130px 650px;
+}
+.footer-title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-brief {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
