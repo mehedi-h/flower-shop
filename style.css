@@ -74,11 +74,55 @@ header {
     gap: 30px;
     
 }
-.pink {
-    padding: 50px;
-    height: 350px;
-    width: 300px;
+.feature-flower-img {
+    display: flex;
+    align-items: center;
+    margin: 0px 240px 150px;
+    gap: 30px;
 }
+.flower-pink {
+    width: 464px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+
+}
+.pink {
+    width: 310px;
+    height: 430px;
+    margin: 100px 75px 30px;
+}
+
+
+.flower-bouquet {
+    width: 464px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+}
+.bouquet {
+    width: 370px;
+    height: 370px;  
+    margin: 100px 75px 90px; 
+}
+
+.flower-yellow {
+    width: 464px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+
+}
+.yellow {
+    width: 314px;
+    height: 471px;  
+    margin: 60px 75px 30px; 
+}
+
+
 .hot-deal-container {
     display: flex;
     justify-content: space-between;
